@@ -20,11 +20,11 @@ export const Route = createFileRoute("/")({
 });
 
 const menu = [
-  { title: "Signature Coffees", items: [["Aurelia Gold", "Espresso, orange blossom, gilt chocolate", "12"], ["The Marquise", "Velvet flat white, Madagascan vanilla", "11"], ["Nocturne", "Single-origin pour over, cacao nib", "14"]] },
-  { title: "Rare Teas", items: [["First Flush Darjeeling", "Muscatel, rose, a lingering finish", "16"], ["Jasmine Silver Needle", "Hand-rolled pearls, soft florals", "18"], ["Aurelia Breakfast", "Assam, Ceylon and bergamot", "12"]] },
-  { title: "Pastries & Pâtisserie", items: [["Pistachio Religieuse", "Praline cream, candied pistachio", "16"], ["Tarte Aurelia", "Dark chocolate, fig, sea salt", "17"], ["Vanilla Mille-Feuille", "Caramelised pastry, Tahitian vanilla", "15"]] },
-  { title: "Afternoon Tea Service", items: [["The Royal Service", "Four tiers with a rare tea pairing", "78"], ["The Salon Service", "Three tiers with house tea", "62"], ["The Little Marquis", "A considered service for younger guests", "34"]] },
-  { title: "Savory Plates", items: [["Truffled Croque", "Comté, brioche, black truffle", "24"], ["Smoked Trout Tartine", "Horseradish cream, dill, rye", "22"], ["Wild Mushroom Vol-au-Vent", "Madeira, thyme, cultured cream", "26"]] },
+  { title: "Signature Coffees", items: [["Aurelia Gold", "Espresso, orange blossom, gilt chocolate", "120/-"], ["The Marquise", "Velvet flat white, Madagascan vanilla", "110/-"], ["Nocturne", "Single-origin pour over, cacao nib", "140/-"]] },
+  { title: "Rare Teas", items: [["First Flush Darjeeling", "Muscatel, rose, a lingering finish", "160/-"], ["Jasmine Silver Needle", "Hand-rolled pearls, soft florals", "180-"], ["Aurelia Breakfast", "Assam, Ceylon and bergamot", "120-"]] },
+  { title: "Pastries & Pâtisserie", items: [["Pistachio Religieuse", "Praline cream, candied pistachio", "160/-"], ["Tarte Aurelia", "Dark chocolate, fig, sea salt", "170/-"], ["Vanilla Mille-Feuille", "Caramelised pastry, Tahitian vanilla", "150/-"]] },
+  { title: "Afternoon Tea Service", items: [["The Royal Service", "Four tiers with a rare tea pairing", "780/-"], ["The Salon Service", "Three tiers with house tea", "620-"], ["The Little Marquis", "A considered service for younger guests", "340/-"]] },
+  { title: "Savory Plates", items: [["Truffled Croque", "Comté, brioche, black truffle", "240-"], ["Smoked Trout Tartine", "Horseradish cream, dill, rye", "220/-"], ["Wild Mushroom Vol-au-Vent", "Madeira, thyme, cultured cream", "260/-"]] },
 ];
 
 function MaisonAurelia() {
