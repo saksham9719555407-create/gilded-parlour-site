@@ -98,3 +98,14 @@ cd <repository-name>
 npm i
 npm run dev
 ```
+
+## Netlify Deployment
+
+The Vite configuration selects Nitro's `netlify` preset to generate the
+server-side rendering function and public assets. For the installed Nitro v3
+version, public assets are emitted to `dist`, not `.output/public`.
+
+The repository's `netlify.toml` sets the build command to `bun run build` and
+the publish directory to `dist`, overriding the outdated publish directory in
+the Netlify site settings. Keep these settings aligned with the Nitro preset
+when changing the deployment configuration.
